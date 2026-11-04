@@ -3,16 +3,16 @@
 **Asignatura:** Programación Orientada a Objetos  
 **Tema:** Interfaces Gráficas de Usuario (GUI) y Programación Orientada a Eventos  
 
----
 
-## 📋 1. Selección de la Biblioteca
+
+## 1. Selección de la Biblioteca
 
 * **Biblioteca:** [Flet](https://flet.dev/)
 * **Propósito Principal:** Permitir a los desarrolladores de Python construir aplicaciones de interfaz gráfica (GUI) interactivas, modernas y multiplataforma de forma sencilla, sin necesidad de dominar tecnologías complejas de frontend como JavaScript, HTML o CSS. Flet utiliza el motor de **Flutter** por debajo para renderizar los componentes visuales de manera nativa y fluida.
 
----
 
-## 🔬 2. Investigación
+
+## 2. Investigación
 
 ### ¿Qué tipo de aplicaciones permite desarrollar?
 Flet permite crear aplicaciones de escritorio (Windows, macOS, Linux), aplicaciones web (convertibles en PWA) y aplicaciones móviles (Android e iOS) utilizando exactamente la misma base de código escrita en Python.
@@ -48,9 +48,9 @@ Flet utiliza un enfoque de programación orientada a eventos vinculando propieda
 2. Flet GitHub Repository: [https://github.com/flet-dev/flet](https://github.com/flet-dev/flet)
 3. Python Package Index (PyPI) - Flet: [https://pypi.org/project/flet/](https://pypi.org/project/flet/)
 
----
 
-## 🛠️ 3. Explicación del Ejemplo Mínimo y Orientación a Objetos
+
+## 3. Explicación del Ejemplo Mínimo y Orientación a Objetos
 
 ### Explicación del Funcionamiento
 1. **Creación de la Ventana Principal:** Se obtiene una instancia de `ft.Page` en la función principal. Se configuran las propiedades visuales de la ventana (título, dimensiones y alineaciones).
@@ -64,9 +64,9 @@ La aplicación fue desarrollada encapsulando toda la lógica e interfaz dentro d
 * **Atributos Visuales:** `self.lbl_contador` y `self.btn_incrementar` mantienen referencias directas a los controles de la interfaz.
 * **Métodos de Evento:** `incrementar_contador()` actúa como el manejador (*handler*) encendido por la interacción del usuario.
 
----
 
-## 🚀 4. Instrucciones de Instalación y Ejecución
+
+## 4. Instrucciones de Instalación y Ejecución
 
 1. **Clonar el repositorio:**
    ```bash
@@ -84,9 +84,9 @@ La aplicación fue desarrollada encapsulando toda la lógica e interfaz dentro d
    python main.py
    ```
 
----
 
-## 📸 5. Evidencia de Funcionamiento
+
+## 5. Evidencia de Funcionamiento
 
 *(Agrega aquí una captura de pantalla de la aplicación ejecutándose)*
 
