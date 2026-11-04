@@ -70,8 +70,8 @@ La aplicación fue desarrollada encapsulando toda la lógica e interfaz dentro d
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/TU_USUARIO/NOMBRE_DE_TU_REPOSITY.git
-   cd NOMBRE_DE_TU_REPOSITY
+   git clone https://github.com/sebas8902/https://github.com/sebas8902/taller-flet-poo-python.git
+   cd https://github.com/sebas8902/taller-flet-poo-python
    ```
 
 2. **Instalar dependencias:**
