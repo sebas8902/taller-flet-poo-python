@@ -3,7 +3,7 @@
 **Asignatura:** Programación Orientada a Objetos  
 **Tema:** Interfaces Gráficas de Usuario (GUI) y Programación Orientada a Eventos  
 
-**Docente:** 
+**Docente:** Eduardo Pimienta Leon
 
 **Estudiante:** Sebastian De Luque Garcia 
 
@@ -47,11 +47,6 @@ Flet utiliza un enfoque de programación orientada a eventos vinculando propieda
 | **Curva de Aprendizaje** | Reactiva y orientada a objetos moderna. | Imperativa y basada en coordenadas/grid. |
 | **Consumo de Recursos** | Mayor consumo (requiere motor Flutter/WebSockets). | Ultraligero y nativo de Python. |
 
-### Fuentes Consultadas
-1. Flet Developer Documentation: [https://flet.dev/docs/](https://flet.dev/docs/)
-2. Flet GitHub Repository: [https://github.com/flet-dev/flet](https://github.com/flet-dev/flet)
-3. Python Package Index (PyPI) - Flet: [https://pypi.org/project/flet/](https://pypi.org/project/flet/)
-
 
 
 ## 3. Explicación del Ejemplo Mínimo y Orientación a Objetos
@@ -93,6 +88,11 @@ cd taller-flet-poo-python
 
 ## 5. Evidencia de Funcionamiento
 
-*(Agrega aquí una captura de pantalla de la aplicación ejecutándose)*
-
 ![Captura de pantalla de la app](evidencia.png)
+
+
+
+### Fuentes Consultadas
+1. Flet Developer Documentation: [https://flet.dev/docs/](https://flet.dev/docs/)
+2. Flet GitHub Repository: [https://github.com/flet-dev/flet](https://github.com/flet-dev/flet)
+3. Python Package Index (PyPI) - Flet: [https://pypi.org/project/flet/](https://pypi.org/project/flet/)
