@@ -114,7 +114,6 @@ cd taller-flet-poo-python
 * **Incrementar:** Aumenta el valor del contador en una unidad.
 * **Disminuir:** Reduce el valor del contador en una unidad, sin permitir valores negativos.
 * **Reiniciar:** Restablece el contador a cero.
-* 
 
 ### Fuentes Consultadas
 1. Flet Developer Documentation: [https://flet.dev/docs/](https://flet.dev/docs/)
