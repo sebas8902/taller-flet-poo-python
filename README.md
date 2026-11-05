@@ -49,9 +49,6 @@ En este proyecto se utilizan estos componentes para mostrar el contador y permit
 
 
 
-### ¿Cómo maneja los eventos del usuario?
-Flet utiliza un enfoque de programación orientada a eventos vinculando propiedades como `on_click`, `on_change` o `on_submit` a funciones o métodos *callback*. Cuando el usuario realiza una acción (como hacer clic en un botón), Flet detecta la interacción y ejecuta automáticamente la función asociada, pasando un objeto de evento (`ControlEvent`) con información del contexto.
-
 ### ¿Qué ventajas y limitaciones presenta frente a Tkinter?
 | Criterio | Flet | Tkinter |
 | :--- | :--- | :--- |
