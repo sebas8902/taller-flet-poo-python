@@ -54,15 +54,19 @@ Flet utiliza un enfoque de programación orientada a eventos vinculando propieda
 
 ### Explicación del Funcionamiento
 
+La aplicación consiste en un contador interactivo que permite aumentar, disminuir y reiniciar un valor numérico mediante una interfaz gráfica.
+
 1. **Creación de la Ventana Principal:** Se obtiene una instancia de `ft.Page` mediante la función `main(page)`, donde se crea un objeto de la clase `ContadorApp`.
 
-2. **Creación de Componentes Gráficos:** Los elementos `ft.Text` y `ft.ElevatedButton` se instancian dentro de la clase `ContadorApp` para mostrar el título, el valor del contador y el botón de incremento.
+2. **Inicialización del Contador:** El atributo `self.valor_contador` comienza con el valor cero y almacena el estado actual del contador.
 
-3. **Organización de la Interfaz:** Los componentes se organizan verticalmente mediante `ft.Column`, permitiendo una presentación ordenada.
+3. **Creación de Componentes Gráficos:** Se utilizan controles como `ft.Text`, `ft.Button` y `ft.OutlinedButton` para mostrar el título, el valor del contador y los botones de interacción.
 
-4. **Detección del Evento:** El botón `ft.ElevatedButton` utiliza la propiedad `on_click=self.manejar_clic_boton`, que vincula la acción de pulsarlo con un método de la clase.
+4. **Organización de la Interfaz:** Los componentes se organizan mediante `ft.Column` y `ft.Row`, permitiendo distribuir los elementos vertical y horizontalmente.
 
-5. **Respuesta al Evento:** El método `manejar_clic_boton(self, e)` incrementa la variable `self.valor_contador`, actualiza el contenido de `self.texto_contador` y refresca la interfaz mediante `.update()`.
+5. **Detección de Eventos:** Cada botón utiliza la propiedad `on_click` para vincular la interacción del usuario con un método de la clase.
+
+6. **Respuesta al Evento:** Los métodos `incrementar()`, `decrementar()` y `reiniciar()` modifican el valor del contador y llaman a `actualizar_contador()` para reflejar los cambios en pantalla.
 
 ### Reto Adicional: Estructura Orientada a Objetos (POO)
 
@@ -70,11 +74,13 @@ La aplicación fue desarrollada encapsulando la lógica y los componentes gráfi
 
 - **Atributos de Estado:** `self.valor_contador` almacena el valor numérico actual del contador.
 
-- **Atributos Visuales:** `self.titulo`, `self.texto_contador` y `self.boton_incrementar` mantienen las referencias a los componentes gráficos.
+- **Atributos Visuales:** `self.titulo`, `self.texto_contador`, `self.boton_incrementar`, `self.boton_decrementar` y `self.boton_reiniciar` mantienen las referencias a los componentes gráficos.
 
-- **Métodos:** `crear_componentes()` se encarga de construir la interfaz, mientras que `manejar_clic_boton()` controla el evento de incremento.
+- **Métodos:** `crear_componentes()` construye la interfaz; `incrementar()`, `decrementar()` y `reiniciar()` controlan las operaciones del contador; `actualizar_contador()` actualiza el valor mostrado en pantalla.
 
 - **Encapsulamiento:** La clase reúne los atributos y métodos relacionados con el funcionamiento del contador, manteniendo organizada la lógica de la aplicación.
+
+- **Validación:** El método `decrementar()` contiene una condición que impide que el contador tome valores negativos.
 
 
 
@@ -89,7 +95,7 @@ cd taller-flet-poo-python
 
 2. **Instalar dependencias:**
    ```bash
-   pip install flet==0.25.0
+   pip install flet==1.1.0
    ```
 
 3. **Ejecutar la aplicación:**
@@ -103,7 +109,12 @@ cd taller-flet-poo-python
 
 ![Captura de pantalla de la app](evidencia.png)
 
+### Funcionalidades implementadas
 
+* **Incrementar:** Aumenta el valor del contador en una unidad.
+* **Disminuir:** Reduce el valor del contador en una unidad, sin permitir valores negativos.
+* **Reiniciar:** Restablece el contador a cero.
+* 
 
 ### Fuentes Consultadas
 1. Flet Developer Documentation: [https://flet.dev/docs/](https://flet.dev/docs/)
