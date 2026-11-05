@@ -50,19 +50,31 @@ Flet utiliza un enfoque de programación orientada a eventos vinculando propieda
 
 
 
-## 3. Explicación del Ejemplo Mínimo y Orientación a Objetos
+## 3. Explicación del Ejemplo y Orientación a Objetos
 
 ### Explicación del Funcionamiento
-1. **Creación de la Ventana Principal:** Se obtiene una instancia de `ft.Page` en la función principal. Se configuran las propiedades visuales de la ventana (título, dimensiones y alineaciones).
-2. **Creación de Componentes Gráficos:** Los elementos `ft.Text` y `ft.ElevatedButton` se instancian dentro de la clase `ContadorApp` y se organizan verticalmente usando `ft.Column`.
-3. **Detección del Evento:** El botón `ft.ElevatedButton` define la propiedad `on_click=self.incrementar_contador`. Al hacer clic sobre él, la aplicación intercepta el evento.
-4. **Respuesta al Evento:** El método `incrementar_contador(self, e)` modifica la variable de estado `self.contador`, actualiza el texto con `self.lbl_contador.value = str(self.contador)` y refresca la vista con `.update()`.
+
+1. **Creación de la Ventana Principal:** Se obtiene una instancia de `ft.Page` mediante la función `main(page)`, donde se crea un objeto de la clase `ContadorApp`.
+
+2. **Creación de Componentes Gráficos:** Los elementos `ft.Text` y `ft.ElevatedButton` se instancian dentro de la clase `ContadorApp` para mostrar el título, el valor del contador y el botón de incremento.
+
+3. **Organización de la Interfaz:** Los componentes se organizan verticalmente mediante `ft.Column`, permitiendo una presentación ordenada.
+
+4. **Detección del Evento:** El botón `ft.ElevatedButton` utiliza la propiedad `on_click=self.manejar_clic_boton`, que vincula la acción de pulsarlo con un método de la clase.
+
+5. **Respuesta al Evento:** El método `manejar_clic_boton(self, e)` incrementa la variable `self.valor_contador`, actualiza el contenido de `self.texto_contador` y refresca la interfaz mediante `.update()`.
 
 ### Reto Adicional: Estructura Orientada a Objetos (POO)
-La aplicación fue desarrollada encapsulando toda la lógica e interfaz dentro de la clase `ContadorApp`:
-* **Atributos de Estado:** `self.contador` almacena el valor numérico actual.
-* **Atributos Visuales:** `self.lbl_contador` y `self.btn_incrementar` mantienen referencias directas a los controles de la interfaz.
-* **Métodos de Evento:** `incrementar_contador()` actúa como el manejador (*handler*) encendido por la interacción del usuario.
+
+La aplicación fue desarrollada encapsulando la lógica y los componentes gráficos dentro de la clase `ContadorApp`:
+
+- **Atributos de Estado:** `self.valor_contador` almacena el valor numérico actual del contador.
+
+- **Atributos Visuales:** `self.titulo`, `self.texto_contador` y `self.boton_incrementar` mantienen las referencias a los componentes gráficos.
+
+- **Métodos:** `crear_componentes()` se encarga de construir la interfaz, mientras que `manejar_clic_boton()` controla el evento de incremento.
+
+- **Encapsulamiento:** La clase reúne los atributos y métodos relacionados con el funcionamiento del contador, manteniendo organizada la lógica de la aplicación.
 
 
 
