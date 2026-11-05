@@ -71,8 +71,6 @@ La aplicación fue desarrollada encapsulando toda la lógica e interfaz dentro d
 1.**Clonar el repositorio:**
 ```bash
 git clone [https://github.com/sebas8902/taller-flet-poo-python.git](https://github.com/sebas8902/taller-flet-poo-python.git)
-```
-```
 cd taller-flet-poo-python
 ```
 
