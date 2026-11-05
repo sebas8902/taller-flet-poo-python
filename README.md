@@ -89,7 +89,7 @@ cd taller-flet-poo-python
 
 ## 5. Evidencia de Funcionamiento
 
-![Captura de pantalla de la app](evidencia.jpg)
+![Captura de pantalla de la app](evidencia.png)
 
 
 
