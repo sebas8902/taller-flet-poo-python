@@ -23,19 +23,31 @@
 Flet permite crear aplicaciones de escritorio (Windows, macOS, Linux), aplicaciones web (convertibles en PWA) y aplicaciones móviles (Android e iOS) utilizando exactamente la misma base de código escrita en Python.
 
 ### ¿Cómo se instala y qué requisitos necesita?
-* **Requisitos:** Tener instalado Python 3.8 o superior y el gestor de paquetes `pip`.
-* **Instalación:** Se instala directamente desde la terminal ejecutando:
+
+* **Requisitos:** Tener Python instalado y el gestor de paquetes `pip`.
+* **Biblioteca utilizada:** Flet 1.1.0.
+* **Instalación:** Se instala desde la terminal ejecutando:
+
   ```bash
-  pip install flet
+  pip install flet==1.1.0
   ```
 
+
+  
 ### ¿Cuáles son sus principales componentes o elementos gráficos?
-Flet organiza la interfaz mediante una jerarquía de *controles* (equivalentes a los widgets de Flutter):
-* `ft.Page`: La ventana o lienzo principal de la aplicación.
-* `ft.Text`: Control para mostrar texto estático o dinámico.
-* `ft.ElevatedButton` / `ft.IconButton`: Botones interactivos con estilos modernos.
-* `ft.TextField`: Campo para entrada de texto por parte del usuario.
-* `ft.Row` y `ft.Column`: Contenedores flexbox para organizar elementos horizontal o verticalmente.
+
+Flet organiza la interfaz mediante controles visuales que permiten construir aplicaciones interactivas:
+
+* `ft.Page`: Representa la página principal de la aplicación.
+* `ft.Text`: Permite mostrar textos estáticos o dinámicos.
+* `ft.Button`: Crea botones interactivos.
+* `ft.OutlinedButton`: Crea botones con estilo de contorno.
+* `ft.Row`: Organiza los elementos horizontalmente.
+* `ft.Column`: Organiza los elementos verticalmente.
+
+En este proyecto se utilizan estos componentes para mostrar el contador y permitir que el usuario interactúe con sus funcionalidades. 
+
+
 
 ### ¿Cómo maneja los eventos del usuario?
 Flet utiliza un enfoque de programación orientada a eventos vinculando propiedades como `on_click`, `on_change` o `on_submit` a funciones o métodos *callback*. Cuando el usuario realiza una acción (como hacer clic en un botón), Flet detecta la interacción y ejecuta automáticamente la función asociada, pasando un objeto de evento (`ControlEvent`) con información del contexto.
