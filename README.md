@@ -87,7 +87,7 @@ La aplicación fue desarrollada encapsulando la lógica y los componentes gráfi
 
 - **Métodos:** `crear_componentes()` construye la interfaz; `incrementar()`, `decrementar()` y `reiniciar()` controlan las operaciones del contador; `actualizar_contador()` actualiza el valor mostrado en pantalla.
 
-- **Encapsulamiento:** La clase reúne los atributos y métodos relacionados con el funcionamiento del contador, manteniendo organizada la lógica de la aplicación.
+- **Encapsulamiento:** La clase `ContadorApp` agrupa los atributos y métodos necesarios para el funcionamiento del contador, permitiendo que la lógica y la interfaz estén organizados dentro de una misma estructura.
 
 - **Validación:** El método `decrementar()` contiene una condición que impide que el contador tome valores negativos.
 
@@ -95,7 +95,7 @@ La aplicación fue desarrollada encapsulando la lógica y los componentes gráfi
 
 ## 4. Instrucciones de Instalación y Ejecución
 
-1.**Clonar el repositorio:** 
+1. **Clonar el repositorio:** 
 ```bash
 git clone https://github.com/sebas8902/taller-flet-poo-python.git
 
