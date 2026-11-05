@@ -3,6 +3,10 @@
 **Asignatura:** Programación Orientada a Objetos  
 **Tema:** Interfaces Gráficas de Usuario (GUI) y Programación Orientada a Eventos  
 
+**Docente:** 
+
+**Estudiante:** Sebastian De Luque Garcia 
+
 
 
 ## 1. Selección de la Biblioteca
