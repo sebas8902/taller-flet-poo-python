@@ -32,7 +32,11 @@ Flet permite crear aplicaciones de escritorio (Windows, macOS, Linux), aplicacio
   pip install flet==1.1.0
   ```
 
+### ¿Cómo maneja los eventos del usuario?
 
+Flet utiliza un sistema de eventos que permite ejecutar funciones o métodos cuando el usuario interactúa con los componentes de la interfaz. Por ejemplo, la propiedad `on_click` permite detectar cuando se presiona un botón y ejecutar una función asociada.
+
+En este proyecto, cada botón tiene un evento `on_click` vinculado a un método de la clase `ContadorApp`, permitiendo incrementar, disminuir (hasta el 0) o reiniciar el contador según la acción realizada por el usuario.
   
 ### ¿Cuáles son sus principales componentes o elementos gráficos?
 
