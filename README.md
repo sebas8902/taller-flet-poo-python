@@ -77,7 +77,7 @@ cd taller-flet-poo-python
 
 2. **Instalar dependencias:**
    ```bash
-   pip install -r requirements.txt
+   pip install flet==0.25.0
    ```
 
 3. **Ejecutar la aplicación:**
