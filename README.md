@@ -1,6 +1,7 @@
 # Taller de Investigación: Explorando Flet para Interfaces Gráficas con POO en Python
 
-**Asignatura:** Programación Orientada a Objetos  
+**Asignatura:** Programación Orientada a Objetos
+
 **Tema:** Interfaces Gráficas de Usuario (GUI) y Programación Orientada a Eventos  
 
 **Docente:** Eduardo Pimienta Leon
@@ -67,7 +68,7 @@ La aplicación fue desarrollada encapsulando toda la lógica e interfaz dentro d
 
 ## 4. Instrucciones de Instalación y Ejecución
 
-1.**Clonar el repositorio:**
+1.**Clonar el repositorio:** 
 ```bash
 git clone https://github.com/sebas8902/taller-flet-poo-python.git
 
