@@ -101,11 +101,11 @@ La aplicación fue desarrollada encapsulando la lógica y los componentes gráfi
 ## 4. Instrucciones de Instalación y Ejecución
 
 1. **Clonar el repositorio:** 
-```bash
-git clone https://github.com/sebas8902/taller-flet-poo-python.git
+   ```bash
+   git clone https://github.com/sebas8902/taller-flet-poo-python.git
 
-cd taller-flet-poo-python
-```
+   cd taller-flet-poo-python
+   ```
 
 2. **Instalar dependencias:**
    ```bash
