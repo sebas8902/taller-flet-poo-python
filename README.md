@@ -51,15 +51,16 @@ Flet organiza la interfaz mediante controles visuales que permiten construir apl
 
 En este proyecto se utilizan estos componentes para mostrar el contador y permitir que el usuario interactúe con sus funcionalidades. 
 
+### ¿Qué ventajas y limitaciones presenta frente a Tkinter y Pygame?
 
-
-### ¿Qué ventajas y limitaciones presenta frente a Tkinter?
-| Criterio | Flet | Tkinter |
-| :--- | :--- | :--- |
-| **Diseño** | Moderno por defecto (Material Design 3). | Apariencia clásica/antigua de SO. |
-| **Multiplataforma** | Escritorio, Web y Móvil (Android/iOS). | Principalmente Escritorio. |
-| **Curva de Aprendizaje** | Reactiva y orientada a objetos moderna. | Imperativa y basada en coordenadas/grid. |
-| **Consumo de Recursos** | Mayor consumo (requiere motor Flutter/WebSockets). | Ultraligero y nativo de Python. |
+| Criterio | Flet | Tkinter | Pygame |
+| :--- | :--- | :--- | :--- |
+| **Diseño** | Moderno, basado en Flutter y Material Design. | Clásico y sencillo. | Orientado a gráficos, animaciones y videojuegos. |
+| **Multiplataforma** | Escritorio, web y móvil. | Principalmente escritorio. | Principalmente escritorio. |
+| **Facilidad de uso** | Permite crear interfaces sin conocimientos avanzados de frontend. | Sencillo para proyectos básicos. | Requiere comprender el manejo de gráficos y eventos. |
+| **Eventos** | Utiliza propiedades como `on_click` para responder a interacciones. | Utiliza mecanismos como `command` y `bind`. | Utiliza un sistema de eventos para detectar clics y pulsaciones del teclado. |
+| **Elementos gráficos** | Botones, textos, campos y otros controles visuales. | Botones, etiquetas, cuadros de texto y otros controles. | Imágenes, figuras, sprites y elementos gráficos. |
+| **Consumo de recursos** | Puede requerir más recursos por su arquitectura. | Generalmente ligero. | Depende de la complejidad de los gráficos y del juego. |
 
 
 
