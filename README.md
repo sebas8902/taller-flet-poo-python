@@ -133,3 +133,4 @@ cd taller-flet-poo-python
 1. Flet Developer Documentation: [https://flet.dev/docs/](https://flet.dev/docs/)
 2. Flet GitHub Repository: [https://github.com/flet-dev/flet](https://github.com/flet-dev/flet)
 3. Python Package Index (PyPI) - Flet: [https://pypi.org/project/flet/](https://pypi.org/project/flet/)
+4. Pygame Official Documentation: [https://www.pygame.org/docs/](https://www.pygame.org/docs/)
